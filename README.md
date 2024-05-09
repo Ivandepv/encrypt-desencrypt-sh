@@ -5,7 +5,9 @@ You will need a python venv, and install the requirements.txt.
 
 You will need also use the a bash terminal to do this, because the archives are written in bash or .sh.
 
-check if your system use python or python3 because we use python command in bash to execute and show the ui.
+Check if your system use python or python3 because we use python command in bash to execute and show the ui.
+
+For the moment, just UNIX systems can be able to use this program.
 
 # Create files
 
@@ -18,6 +20,12 @@ so, for test execute:
 and enter "enter" in the bash when requires the dir
 
 # Encrypt
+
+This program encrypt recursively the files into a zip file. To run this script, you will need to execute the next command in the terminal
+
+```
+./encrypt.sh $DIRECTORY_TO_ENCRYPT $PASSWORD
+```
 
 
 # Desencrypt
