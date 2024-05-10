@@ -21,4 +21,4 @@ done
 
 #Ejecutar el archivod de python
 
-python main.py
+python desencrypt.py
